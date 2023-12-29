@@ -1,0 +1,553 @@
+/* CSS CODE FOR DIGIXPRT WEBSITE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0px;
+  background-color: #252525;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Navigation bar */
+.topnav {
+  overflow: hidden;
+  padding: 25px 100px 0px 100px;
+}
+
+.split-nav-top {
+  padding: 15px 100px 0 100px;
+  margin: auto;
+}
+
+.contact-info {
+  text-align: left;
+  color: #1c528e;
+}
+
+.contact-info h2 {
+  font-size: 14px;
+  float: left;
+  color: #1c528e;
+  padding: 0 3px;
+}
+
+.contact-info svg {
+  float: left;
+  padding-left: 5px;
+}
+
+.social-icon {
+  text-align: right;
+}
+
+.social-icon :hover {
+  fill: #f5f5f5;
+}
+.linkedin-logo {
+  padding: 0 5px;
+  display: inline-flex;
+  cursor: pointer;
+}
+.facebook-logo {
+  padding: 0 5px;
+  display: inline-flex;
+  cursor: pointer;
+}
+.instagram-logo {
+  padding: 0 5px;
+  display: inline-flex;
+  cursor: pointer;
+}
+.threads-logo {
+  padding: 0 5px;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.topnav {
+  overflow: hidden;
+  padding: 0 100px;
+  position: sticky;
+  top: 2px;
+  background-color: #252525;
+  z-index: 99999999999999;
+}
+
+.active {
+  background-color: #1c528e;
+  color: #1c528e;
+  text-decoration: double;
+}
+
+.splitright {
+  float: inline-end;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 10px 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.splitright a {
+  color: #f5f5f5;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.topnav .splitright a:hover {
+  background-color: #f5f5f5;
+  color: #1c528e;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.active {
+  background-color: #1c528e;
+  color: #1c528e;
+  text-decoration: double;
+}
+
+.splitleft {
+  float: left;
+  padding: 5px 0;
+  height: 64px;
+}
+
+.splitleft img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbtn {
+  padding: 10px 30px;
+  font-size: 18px;
+  background-color: #1c528e;
+  border: 2px solid #1c528e;
+  border-style: solid;
+  color: #f5f5f5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Navigation bar ^ */
+
+/* Mainhead */
+.Box1 {
+  width: 100%;
+  height: 800px;
+  background-image: url(Home-page-images/World\ Map\ 2.jpg);
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border-bottom: 1px solid #1d1d1d; */
+}
+
+.maintext {
+  color: #f5f5f5;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 100px;
+  margin-left: 100px;
+  font-size: 60px;
+}
+/* Mainhead ^  */
+
+/* Funfact */
+/* table tr td { border: 4px solid white;} */
+.table {
+  margin-bottom: 100px;
+  width: 100%;
+}
+table {
+  margin: -5% auto;
+  width: 75%;
+  height: 250px;
+  border-radius: 20px;
+  background-color: #1d1d1d;
+  color: #f5f5f5;
+  background-image: url(Home-page-images/funfact-shape-bg-DigiXprt.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.funfacthead1 {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-left: 10%;
+}
+
+.funfacthead2 {
+  font-size: 45px;
+  padding-top: 30px;
+  text-align: right;
+}
+
+.funfactcontent {
+  font-size: 16px;
+  padding-top: 22px;
+  text-align: left;
+}
+
+.funfactpara {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-left: 10%;
+}
+/* Funfact ^ */
+
+/* Services */
+.services {
+  margin-top: 200px;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.servicecontentbox {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.servicetextbox {
+  width: 440px;
+  height: 400px;
+  background-color: #252525;
+  padding: 0px 10px;
+  float: left;
+  margin-right: 200px;
+}
+
+.servicehead3 {
+  margin: 0px 0px 20px;
+  color: #999696;
+  font-size: 18px;
+}
+.serviceheight1 {
+  height: 45px;
+}
+.servicehead2 {
+  color: #f5f5f5;
+  font-size: 50px;
+  margin: 0px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.servicepagelink:hover {
+  color: #1c528e;
+  margin: 0px;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+.servicepagelink {
+  color: #f5f5f5;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.serviceheight2 {
+  height: 90px;
+}
+
+.servicewidth1 {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  float: left;
+  margin: 0px 12px;
+}
+.serviceinfobox1 {
+  width: 220px;
+  height: 200px;
+  /* background-color: red; */
+  border-radius: 10px;
+  float: left;
+  margin: 0px 12px;
+  background-image: url(Home-page-images/graphics-design-service-DigiXprt.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.serviceinfobox2 {
+  width: 220px;
+  height: 200px;
+  /* background-color: red; */
+  border-radius: 10px;
+  float: left;
+  margin: 0px 12px;
+  background-image: url(Home-page-images/Digital-marketing-service-DigiXprt.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.serviceinfobox3 {
+  width: 220px;
+  height: 200px;
+  /* background-color: red; */
+  border-radius: 10px;
+  float: left;
+  margin: 0px 12px;
+  background-image: url(Home-page-images/ui-ux-service-DigiXprt.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.serviceinfobox4 {
+  width: 220px;
+  height: 200px;
+  /* background-color: red; */
+  border-radius: 10px;
+  float: left;
+  margin: 0px 12px;
+  background-image: url(Home-page-images/web-development-service-DigiXprt.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.serviceinfobox1:hover {
+  box-shadow: 0 0 25px #1c528e;
+  cursor: pointer;
+}
+
+.serviceinfobox2:hover {
+  box-shadow: 0 0 25px #1c528e;
+  cursor: pointer;
+}
+
+.serviceinfobox3:hover {
+  box-shadow: 0 0 25px #1c528e;
+  cursor: pointer;
+}
+
+.serviceinfobox4:hover {
+  box-shadow: 0 0 25px #1c528e;
+  cursor: pointer;
+}
+
+.color-overlay-effect {
+  width: 220px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.graphics-design {
+  font-size: 20px;
+  position: absolute;
+  color: #f5f5f5;
+  top: 140px;
+  left: 5px;
+}
+
+.digital-marketing {
+  font-size: 20px;
+  position: absolute;
+  color: #f5f5f5;
+  top: 140px;
+  left: 5px;
+}
+
+.ui-ux {
+  font-size: 20px;
+  position: absolute;
+  color: #f5f5f5;
+  top: 171px;
+  left: 5px;
+}
+
+.web-development {
+  font-size: 20px;
+  position: absolute;
+  color: #f5f5f5;
+  top: 140px;
+  left: 5px;
+}
+
+/* Services ^ */
+
+/* Projects */
+.projects {
+  width: 100%;
+  height: 790px;
+}
+.projecttextbox {
+  width: 100%;
+  text-align: center;
+}
+.projecthead3 {
+  margin: 0px 0px 20px;
+  color: #999696;
+  font-size: 18px;
+}
+.projecthead2 {
+  color: #f5f5f5;
+  font-size: 50px;
+  margin: 0px;
+  font-weight: 400;
+}
+.projectblheight {
+  height: 100px;
+}
+.portfolioslider {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.portfoliob1 {
+  background-color: #252525;
+  background-image: url(Home-page-images/Portfolio-web-development-DigiXprt.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  float: left;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfoliob1c {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background-color: #1c528e;
+  position: absolute;
+  margin-left: -50px;
+  top: 50%;
+}
+.portfoliob1t {
+  color: #f5f5f5;
+  margin: 0px auto;
+  position: absolute;
+  top: 30%;
+  font-size: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.portfoliob2 {
+  background-color: #252525;
+  background-image: url(Home-page-images/Portfolio-branding-DigiXprt.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 15px;
+  overflow: hidden;
+  float: left;
+}
+.portfoliob3 {
+  background-color: #252525;
+  background-image: url(Home-page-images/Portfolio-colorful-art-work-DigiXprt.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  float: right;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+
+/* Team start */
+
+.team {
+  height: 600px;
+  width: 80%;
+  /* background-color: antiquewhite; */
+  margin: auto;
+  margin-bottom: 100px;
+}
+.teamtoparea {
+  height: 200px;
+}
+.teamtextbox {
+  /* background-color: black; */
+  float: left;
+}
+.teamh3 {
+  margin: 0px 0px 20px;
+  color: #999696;
+  font-size: 18px;
+}
+.teamh2 {
+  color: #f5f5f5;
+  font-size: 50px;
+  margin: 00px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.teamblankgap {
+  height: 50px;
+}
+.teammembers {
+  /* background-color: red; */
+  width: max-content;
+  height: 350px;
+  margin: auto;
+  display: flex;
+}
+.circle1 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 100%;
+  display: inline-block;
+  margin: auto 14px;
+}
+.circle2 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 100%;
+  display: inline-block;
+  margin: auto 14px;
+}
+.circle3 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 100%;
+  display: inline-block;
+  margin: auto 14px;
+}
+.circle4 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 100%;
+  display: inline-block;
+  margin: auto 14px;
+}
+/* Team End */
+.testimonials {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background-color: aquamarine;
+}

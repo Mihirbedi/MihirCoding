@@ -1,0 +1,164 @@
+/* Navigation bar */
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.head-bgimg
+{
+    height: 570px;
+    background-image: url(Services-page-images/Services-page-images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.split-nav-top
+{
+    padding: 15px 100px 0 100px;
+    margin: auto;
+}
+
+.contact-info
+{
+    text-align: left;
+    color: #1c528e;
+}
+
+.contact-info h2
+{
+    font-size: 14px;
+    float: left;
+    color: #1c528e;
+    padding: 0 3px;
+}
+
+.contact-info svg
+{
+    float: left;
+    padding-left: 5px;
+}
+
+.social-icon 
+{
+    cursor: pointer;
+    text-align: right;
+}
+
+.social-icon :hover
+{
+    fill: #f5f5f5;
+
+}
+.linkedin-logo
+{
+    padding: 0 5px;
+    display: inline-flex;
+}
+.facebook-logo
+{
+    padding: 0 5px;
+    display: inline-flex;
+}
+.instagram-logo
+{
+    padding: 0 5px;
+    display: inline-flex;
+}
+.threads-logo
+{
+    padding: 0 5px;
+    display: inline-flex;
+}
+
+.topnav 
+{
+    overflow: hidden;
+    padding: 0 100px;
+}
+
+.splitright
+{
+    float: inline-end;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 10px 0 10px;
+    text-decoration: none;
+    font-size: 18px; 
+    margin: 0 auto;
+}
+.splitright a
+{
+    color: #f5f5f5;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.topnav .splitright a:hover 
+{
+    background-color: #f5f5f5;
+    color: #1c528e;
+    text-decoration: underline;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.active
+{
+    background-color: #1c528e;
+    color: #1c528e;
+    text-decoration: double;
+}
+
+.splitleft
+{
+    float: left;
+    color: white;
+    padding: 14px 0;
+    height: 75px;
+}
+
+.splitleft img
+{
+    width: 100%;
+    Height: 100%;
+}
+
+.navbtn
+{
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #1c528e;
+    border: 2px solid #1c528e;
+    border-style: solid;
+    color: #f5f5f5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.aboutus h1
+{
+    color: #f5f5f5;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -350px;
+}
+
+.pagetitle
+{
+    font-size: 50px;
+    text-align: center;
+    color: #f5f5f5;
+    font-weight: 600;
+    top: 140px;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Navigation bar ^ */
