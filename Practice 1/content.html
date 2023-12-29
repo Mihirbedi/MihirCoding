@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+<body>
+  <div class="totalcontent">
+    <div>
+        <h1>Request Catalogue</h1>
+    </div>
+    <div class="leftbox">
+      <div class="content">
+      <p>
+        The Gisco family offers 2 Catalogue full of solutions to help people of all ages become more active and healthy. To request, Simply select interested catalogue and fill out the form.
+        <img src="all sports catalogue.png" alt="">
+      <p>
+      <input type="checkbox" id="check">
+      <label for="check">All Sport</label><br>
+      <p>Innovative agility training, physical education, gymnastics, athletic, fitness, and recreation equipment for all age groups.
+      </p>
+      <img src="kids play catalogue.png">
+         
+      <p>
+      <input type="checkbox" id="gn">
+      <label for="gn">All Sport</label><br>
+      Your trusted partner in early childhood active play and learning solutions.</p>
+      </div>
+    </div> 
+
+
+    <div class="container">
+    <form action="/action_page.php">
+      <div class="name"><label for="fname"></label>
+      <input class="name" type="text" id="fname" name="firstname" placeholder="First Name"></div>
+
+      <div class="name"><label class="name" for="lname"></label>
+      <input type="text" id="lname" name="lastname" placeholder="last name"></div>
+
+      <label for="Title"></label>
+      <select id="Title" name="Title">
+        <option value="Title">Title</option>
+        <option value="Purchasing Manager">Purchasing Manager</option>
+        <option value="Owner">Owner</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="oname"></label>
+      <input type="text" id="oname" name="Organisation Name" placeholder="Organisation Name">
+
+      <label for="oname"></label>
+      <select id="oname" name="oname">
+        <option value="Organisation Type">Organisation Type</option>
+        <option value="Training Coach">Training Coach</option>
+        <option value="Retailer">Retailer</option>
+        <option value="Distributor">Distributor</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="address2"></label>
+      <input type="text" id="address2" name="address2" placeholder="Address Line 2">
+
+      <label for="country"></label>
+      <input type="text" id="country" name="country" placeholder="Country" required>
+
+      <label for="city"></label>
+      <input type="text" id="city" name="city" placeholder="City" required>
+
+      <label for="state"></label>
+      <input type="text" id="state" name="state" placeholder="State" required>
+
+      <label for="postcode"></label>
+      <input type="text" id="postcode" name="postcode" placeholder="Post Code" required>
+
+      <label for="phone"></label>
+      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+      <label for="email"></label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      
+      <div>
+      <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I would like to receive the latest updates on new articles, videos, products and offers!
+        </label><br>
+      </div>
+      
+
+      <div class="submit"><input type="submit" value="Request Catalogue"></div>
+    </form>
+    </div>
+  </div>
+</body>
+</html>

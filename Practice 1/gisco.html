@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+<style>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.totalcontent{
+  width: 60%;
+  margin: auto;
+}
+h1{
+  margin: 40px 0px;
+  font-size: 41px;
+  font-weight: 500;
+}
+.leftbox{
+  float: left;
+  position: relative;
+  width: 49%;
+  margin-bottom: 60px;
+  border-radius: 0;
+  color: rgba(0,0,0,0.87);
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .125)
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+.content{
+  padding: 10px 30px;
+}
+
+
+input[type=text], select, textarea{
+  width: 100%;
+  height: 43px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  display: block;
+  color: #495057;
+  font-size: 15px;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  height: 43px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  display: block;
+  color: #495057;
+  font-size: 15px;
+}
+
+input[type=tel], select, textarea {
+  width: 100%;
+  height: 43px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  display: block;
+  color: #495057;
+  font-size: 15px;
+}
+
+  input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 5px 7px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  height: 40px;
+}
+  
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=checkbox]{
+  margin-right: 7px;
+}
+  
+.container {
+  float: right;
+  position: relative;
+  width: 49%;
+  margin-bottom: 60px;
+  border-radius: 0;
+  color: rgba(0,0,0,0.87);
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .125)
+  /* box-shadow: 0 0 5px 0 #e2e2e2; */
+}
+form{
+  padding: 10px 30px;
+}
+.submit{
+  width: 100%;
+  height: 50px;
+}
+
+.checkbox{
+  font-size: 15px;
+}
+
+
+</style>
+</head>
+<body>
+  <div class="totalcontent">
+    <div>
+        <h1>Request Catalogue</h1>
+    </div>
+    <div class="leftbox">
+      <div class="content">
+      <p>
+        The Gisco family offers 2 Catalogue full of solutions to help people of all ages become more active and healthy. To request, Simply select interested catalogue and fill out the form.
+        <img src="all sports catalogue.png" alt="">
+      <p>
+      <input type="checkbox" id="check">
+      <label for="check">All Sport</label><br>
+      <p>Innovative agility training, physical education, gymnastics, athletic, fitness, and recreation equipment for all age groups.
+      </p>
+      <img src="kids play catalogue.png">
+         
+      <p>
+      <input type="checkbox" id="gn">
+      <label for="gn">All Sport</label><br>
+      Your trusted partner in early childhood active play and learning solutions.</p>
+      </div>
+    </div> 
+
+
+    <div class="container">
+    <form action="/action_page.php">
+      <div class="name"><label for="fname"></label>
+      <input class="name" type="text" id="fname" name="firstname" placeholder="First Name"></div>
+
+      <div class="name"><label class="name" for="lname"></label>
+      <input type="text" id="lname" name="lastname" placeholder="last name"></div>
+
+      <label for="Title"></label>
+      <select id="Title" name="Title">
+        <option value="Title">Title</option>
+        <option value="Purchasing Manager">Purchasing Manager</option>
+        <option value="Owner">Owner</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="oname"></label>
+      <input type="text" id="oname" name="Organisation Name" placeholder="Organisation Name">
+
+      <label for="oname"></label>
+      <select id="oname" name="oname">
+        <option value="Organisation Type">Organisation Type</option>
+        <option value="Training Coach">Training Coach</option>
+        <option value="Retailer">Retailer</option>
+        <option value="Distributor">Distributor</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="address2"></label>
+      <input type="text" id="address2" name="address2" placeholder="Address Line 2">
+
+      <label for="country"></label>
+      <input type="text" id="country" name="country" placeholder="Country" required>
+
+      <label for="city"></label>
+      <input type="text" id="city" name="city" placeholder="City" required>
+
+      <label for="state"></label>
+      <input type="text" id="state" name="state" placeholder="State" required>
+
+      <label for="postcode"></label>
+      <input type="text" id="postcode" name="postcode" placeholder="Post Code" required>
+
+      <label for="phone"></label>
+      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+      <label for="email"></label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      
+      <div>
+      <form action="/action_page.php">
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I would like to receive the latest updates on new articles, videos, products and offers!
+        </label><br>
+      </div>
+      
+
+      <div class="submit"><input type="submit" value="Request Catalogue"></div>
+    </form>
+    </div>
+  </div>
+</body>
+</html>

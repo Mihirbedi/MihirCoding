@@ -1,0 +1,122 @@
+*{margin: 0;
+padding: 0;
+}
+/* table tr td {border: 2px solid red;} */
+.table1{
+    width: 80%;
+    margin: auto;
+}
+
+.logo{
+    width: 20%;
+    padding: 20px 0 20px 5px ;
+    font-size: 18px;
+}
+
+.td1{
+    width: 10%;
+    padding: 20px 0 20px 5px ;
+    font-size: 18px;
+}
+.topimg{
+    width: 70%;
+}
+.bannerh1{
+    margin: 10px 0 10px 20px;
+}
+.headerpara{
+    margin-left: 20px;
+}
+.headerbutton{
+    margin: 30px 0 0 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.scndh1{
+    text-align: center;
+    margin-top: 100px;
+}
+.scndpara{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.table2{
+   width: 80%; 
+   margin: auto;
+   margin-bottom: 100px;
+}
+
+
+.productimg{
+    width: 378px;
+    padding: 0 12px;
+}
+.productname{
+    font-size: 25px;
+    padding-left: 12px;
+}
+.price{
+    padding-left: 12px;
+}
+.productbuttons{
+    width: 400px;
+    font-size: 18px;
+    padding: 10px 0;
+    background-color: black;
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+.loadmore{
+    width: 400px;
+    font-size: 18px;
+    padding: 10px 0;
+    background-color: black;
+    color: #f5f5f5;
+    border-radius: 5px;
+    margin: auto;
+}
+.table3{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+.bannerlft{
+    width: 50%;
+}
+.bannerrght{
+    width: 50%;
+}
+
+.imglft{
+    width: 100%;
+}
+.imgright-uppr{
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+.imgright-dwn{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.footer-h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer-para{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-icons{
+    margin: auto;
+    width: 100px;
+    margin-bottom: 50px;
+}
+.credits{
+    text-align: center;
+    font-size: 18px;
+}

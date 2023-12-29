@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;  
+  box-sizing: border-box;
+}
+.firstt{
+    width: 100%;
+    background-color: rgb(25, 25, 180);
+}
+.secondt{
+    width: 90%;
+margin: auto;
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    width: 50%;
+    padding: 15px 0;
+}
+.nav{
+color: white;
+font-size: 18px;
+width: 10%;
+text-align: center;
+}
+.tableimg{
+width: 90%;
+margin: auto;
+
+}
+.pic{
+width: 100%;
+}
+.image{
+width: 30%;
+padding-left: 63px;
+
+}
+.thirdtable{
+    width: 90%;
+    margin: auto;
+
+}
+.secondtd{
+width: 25%;
+
+
+
+}
+
+.image2{
+    width: 100%;
+    height: 100%;
+padding: 10px;
+}
+
+.secondtd-txt{
+    padding: 5px 10px;
+}

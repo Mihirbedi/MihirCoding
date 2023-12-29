@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+}
+table, tr, td{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+.logo{
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+.righttext{
+    width: 40%;
+    text-align: justify;
+}
+.footer{
+    text-align: center;
+}
