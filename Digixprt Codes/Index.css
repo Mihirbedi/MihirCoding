@@ -545,9 +545,36 @@ table {
   margin: auto 14px;
 }
 /* Team End */
-.testimonials {
-  width: 80%;
-  height: 400px;
-  margin: auto;
-  background-color: aquamarine;
+/* Contact section */
+.for_contact{
+    padding: 90px 30px;
+    background-image: url(Home-page-images/cta_bg.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: auto;
+    width: 60%;
+    background-size: cover;
 }
+.cta_head{
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    color: #f5f5f5;
+}
+.cta_blank_height
+{
+    height: 100px;
+}
+.cta_link
+{
+    color: #f5f5f5;
+    margin: auto;
+
+}
+.cta_link:hover
+{
+    color: #1c528e;
+    margin: auto;
+    text-decoration: underline;
+}
+/* Contact section */
