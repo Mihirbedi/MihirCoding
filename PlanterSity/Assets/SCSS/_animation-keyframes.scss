@@ -1,0 +1,89 @@
+// header keyframes
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// header keyframes
+
+@keyframes showContent {
+  from {
+    transform: translateY(-30px);
+    filter: blur(10px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+
+@keyframes transformFromPosition2 {
+  from {
+    transform: var($item2-transform);
+    filter: var($item2-filter);
+    opacity: var($item2-opacity);
+  }
+}
+
+@keyframes transformFromPosition3 {
+  from {
+    transform: var($item3-transform);
+    filter: var($item3-filter);
+    opacity: var($item3-opacity);
+  }
+}
+@keyframes transformFromPosition4 {
+  from {
+    transform: var($item4-transform);
+    filter: var($item4-filter);
+    opacity: var($item4-opacity);
+  }
+}
+@keyframes transformFromPosition5 {
+  from {
+    transform: var($item5-transform);
+    filter: var($item5-filter);
+    opacity: var($item5-opacity);
+  }
+}
+
+@keyframes transformFromPosition1 {
+  from {
+    transform: var($item1-transform);
+    filter: var($item1-filter);
+    opacity: var($item1-opacity);
+  }
+}
+
+@keyframes autoRun {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes reversePlay {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+
+@keyframes openForm {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}

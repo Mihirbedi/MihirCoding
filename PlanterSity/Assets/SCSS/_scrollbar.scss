@@ -1,0 +1,29 @@
+$background-color: #e0e8d4;
+$primary-color: #2e8a56;
+$secondary-color: #4d332d;
+$accent-color: #9ec185;
+$text-color: #4d332d;
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $background-color;
+    border: 1px solid $secondary-color;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $primary-color;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: $accent-color;
+
+  }
