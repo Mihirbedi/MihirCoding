@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+
+
+body {
+  background-color: #252525;
+  display: flex;
+  column-gap: 0.2vh;
+}
+
+/* colors
+
+background color - #1d2238  rgb(29, 34, 56)
+Logo colors
+Color 1-- #009589  rgb(0, 149, 137)
+Color 2-- #095c53  rgb(9, 92, 83)
+
+*/
+
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5vh;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d2238;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#095c53, #009589);
+  cursor: pointer;
+  border-radius: 1vh;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#009589, #095c53);
+  cursor: pointer;
+}
+/* Scrollbar */
+
+
+
+
+
+/* header starts here */
+header {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 16vw;
+  background-color: #1d2238;
+  padding: 4vh;
+}
+
+header nav section .main_logo {
+  width: 100%;
+}
+
+header nav section .social_icons {
+  margin: 2.5vh 0 10vh;
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vh;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav section .social_icons a:hover {
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+}
+
+header nav section .social_icons a {
+  font-size: 3.5vh;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+header > nav > section > .menu > ul > li > a {
+  font-size: 1.8vh;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 5vh;
+  display: block;
+  height: 5vh;
+  border-bottom: 0.1vh solid #e8dfec;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  align-items: center;
+}
+
+header > nav > section > .menu > ul > li{
+  list-style-type: none;
+}
+
+header > nav > section > .menu > ul > li > a:hover {
+  padding-left: 0.5vh;
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+}
+
+header > nav > section > .menu > ul > li > a > .fa {
+  margin-right: 1vh;
+}
+
+header > nav > section > .menu > ul > li:nth-child(3) > ul {
+  display: none;
+  list-style-type: none;
+  background-color: #1d2238;
+  transition: all 0.3s ease-in-out;
+}
+
+header > nav > section > .menu > ul > li:nth-child(3):hover > ul{
+  display: block;
+  transition: all 0.3s ease-in-out;
+} 
+
+
+header > nav > section > .menu > ul > li:nth-child(3) > ul > li > a {
+  display: block;
+  font-size: 1.6vh;
+  font-weight: 600;
+  border-bottom: 0.1vh solid #e8dfec;
+  background-color: #1d2238;
+  line-height: 4vh;
+  height: 4vh;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.copyright h3 {
+  position: absolute;
+  bottom: 4vh;
+  font-size: 1.5vh;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+/* header ends here */
+
+/* main starts here */
+
+main {
+  width: calc(100% - 16vw);
+  flex: 1;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6vh;
+  background-color: #1d2238;
+}
+
+/* header section starts here */
+.header-section {
+  height: 15vh;
+  position: relative;
+  border-bottom: 0.5vh solid;
+  border-image: linear-gradient(to right, #009589, #095c53) 1;
+  display: flex;
+  flex-flow: column;
+  row-gap: 1vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section h1 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 5.25vh;
+}
+
+.header-section nav {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 2vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section nav a {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5vh;
+  opacity: 0.8;
+}
+
+/* header section ends here */
+
+/* footer */
+
+footer{
+  margin: 0 auto;
+  width: 69vw;
+  padding: 5vh 0;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+footer h2{
+  font-size: 3vh;
+  margin-bottom: 3vh;
+}
+
+footer address{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2vh;
+}
+
+footer a{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5vh;
+}
+
+form :nth-child(1){
+  display: grid;
+  grid-gap: 0.5vh 0.5vh;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+form input{
+  width: 100%;
+  border: none;
+  background-image: linear-gradient(#009589, #095c53);
+  color: #1d2238;
+  height: 3.5vh;
+  padding: 0.5vh;
+  outline: none;
+  border-radius: 0.3vh;
+}
+
+
+form input::placeholder{
+  color: #1d2238;
+}
+
+form textarea{
+  height: 5vh;
+  background-image: linear-gradient(#009589, #095c53);
+  resize: vertical;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  padding: 0.5vh;
+  width: 100%;
+  border-radius: 0.3vh;
+}
+form textarea::placeholder{
+  color: #1d2238;    
+}
+
+/* footer */
+
+
+/* back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vh;
+  width: 5vh;
+  height: 5vh;
+  background-image: linear-gradient(#009589, #095c53);
+  color: #fff;
+  border: 0.2vh solid #1d2238;
+  border-radius: 50%;
+
+
+  font-size: 2.7vh;
+  color: #1d2238;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  z-index: 9999;
+}
+/* back to top button */

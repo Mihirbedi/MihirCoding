@@ -1,0 +1,77 @@
+
+
+/* Portfolio section starts here */
+
+.portfolio-section{
+  display: flex;
+  flex-direction: column;
+  row-gap: 3vh;
+  width: 69vw;
+  margin: 0 auto;
+  border: 0.1vh solid black;
+}
+
+.portfolio-section .portfolio-text-area{
+  font-size: 4.5vh;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.portfolio-display-area{
+  display: grid;
+  row-gap: 2.5vh;
+  column-gap: 1vh;
+  grid-template-areas: "Portfolio1 Portfolio2 Portfolio3" 
+                       "Portfolio4 Portfolio4 Portfolio5" 
+                       "Portfolio6 Portfolio7 Portfolio7";
+}
+.portfolio-display-area div{
+  border-radius: 0.5vh;
+}
+
+.portfolio-display-area .portfolio1{
+  grid-area: Portfolio1;
+  height: 46vh;
+  width: 46vh;
+  background-color: rgba(240, 248, 255, 0.533);
+}
+.portfolio-display-area .portfolio2{
+  grid-area: Portfolio2;
+  height: 46vh;
+  width: 46vh;
+  background-color: rgba(240, 248, 255, 0.533);
+}
+.portfolio-display-area .portfolio3{
+  grid-area: Portfolio3;
+  height: 46vh;
+  width: 46vh;
+  background-color: rgba(240, 248, 255, 0.533);
+}
+.portfolio-display-area .portfolio4{
+  grid-area: Portfolio4;
+  height: 46vh;
+  width: 95vh;
+  background-color: rgba(240, 248, 255, 0.533);
+}
+.portfolio-display-area .portfolio5{
+  grid-area: Portfolio5;
+  height: 46vh;
+  width: 46vh;
+  background-color: rgba(240, 248, 255, 0.533);
+}
+.portfolio-display-area .portfolio6{
+  grid-area: Portfolio6;
+  height: 46vh;
+  width: 46vh;
+  background-color: rgba(240, 248, 255, 0.533);
+}
+.portfolio-display-area .portfolio7{
+  grid-area: Portfolio7;
+  height: 46vh;
+  width: 94.3vh;
+  background-color: rgba(240, 248, 255, 0.533);
+}
+
+
+/* Portfolio section ends here */

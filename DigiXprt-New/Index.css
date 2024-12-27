@@ -1,0 +1,625 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+
+/* colors
+
+background color - #1d2238  rgb(29, 34, 56)
+Logo colors
+Color 1-- #009589  rgb(0, 149, 137)
+Color 2-- #095c53  rgb(9, 92, 83)
+
+*/
+
+
+
+
+/* main header starts here */
+.header_section {
+  width: 100%;
+  height: 80vh;
+  background: url(Index-page-images/World-map-DigiXprt.jpg) no-repeat center/cover;
+  position: relative;
+  display: block;
+}
+
+.header_section h1 {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 100px;
+  left: 100px;
+  font-size: 6.5vh;
+  background-image: linear-gradient(to right, #fffffd, #ececec);
+  background-clip: text;
+  color: transparent;
+}
+
+/* main header Ends here */
+
+/* Funfact starts here */
+.funfact {
+  max-width: 100%;
+  background-image: linear-gradient(#009589, #095c53);
+  padding: 10px 0;
+}
+
+.funfact .inner-section {
+  width: 65vw;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #1d2238;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 45px 90px;
+}
+
+.funfact .inner-section .inner-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 10px 0;
+  justify-content: center;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.funfact .inner-section .inner-left h2 {
+  font-size: 5vh;
+}
+
+.funfact .inner-section .inner-left p {
+  font-size: 1.5vh;
+}
+
+.funfact .inner-section .inner-right {
+  width: 60%;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  justify-content: center;
+  display: grid;
+  grid-gap: 20px 40px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 5vh;
+}
+
+.funfact .inner-section .inner-right p{
+  font-size: 2vh;
+}
+
+.funfact .inner-section .funfact-style1 {
+  display: flex;
+  align-items: center;
+}
+
+.funfact .inner-section .funfact-style1 .funfact-number {
+  font-size: 5vh;
+  letter-spacing: -0.8vh;
+  margin-right: 10px;
+}
+
+.funfact .inner-section .funfact-text span {
+  font-size: 2vh;
+  font-weight: 700;
+  display: block;
+  margin-top: -4px;
+  margin-bottom: -1px;
+}
+
+/* Funfact ends here */
+
+/* services starts here */
+.service-section {
+  width: 65vw;
+  margin: 0 auto;
+  padding: 100px;
+  background-color: #1d2238;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-section .service-text a h2 {
+  font-size: 6vh;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.service-section .service-boxes {
+  display: flex;
+  column-gap: 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Service box 1  */
+
+.service-section .service-boxes .service-info-box1 {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box1 img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box1::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box1 h2 {
+  font-size: 2vh;
+  position: absolute;
+  color: transparent;
+  bottom: 5px;
+  left: 5px;
+  z-index: 22222;
+}
+
+.service-section .service-boxes .service-info-box1 img:hover {
+  box-shadow: 0 0 25px #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box1:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  filter: grayscale(0%);
+}
+
+
+
+/* Service box 2  */
+
+.service-section .service-boxes .service-info-box2 {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box2 img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box2::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box2 h2 {
+  font-size: 2vh;
+  position: absolute;
+  color: transparent;
+  bottom: 5px;
+  left: 5px;
+  z-index: 22222;
+}
+
+.service-section .service-boxes .service-info-box2 img:hover {
+  box-shadow: 0 0 25px #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box2:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  filter: grayscale(0%);
+}
+
+
+/* Service box 3  */
+
+.service-section .service-boxes .service-info-box3 {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box3 img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box3::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box3 h2 {
+  font-size: 2vh;
+  position: absolute;
+  color: transparent;
+  bottom: 5px;
+  left: 5px;
+  z-index: 22222;
+}
+
+.service-section .service-boxes .service-info-box3 img:hover {
+  box-shadow: 0 0 25px #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box3:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  filter: grayscale(0%);
+}
+
+/* Service box 4  */
+
+.service-section .service-boxes .service-info-box4 {
+  width: 220px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box4 img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box4::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box4 h2 {
+  font-size: 2vh;
+  position: absolute;
+  color: transparent;
+  bottom: 5px;
+  left: 5px;
+  z-index: 22222;
+}
+
+.service-section .service-boxes .service-info-box4 img:hover {
+  box-shadow: 0 0 25px #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box4:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  filter: grayscale(0%);
+}
+
+/* services ends here */
+
+/* Team Starts */
+
+.team {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.team .team-text-box h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.team .team-members {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .team-members .circle1 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.team .team-members .circle2 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.team .team-members .circle3 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.team .team-members .circle4 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+/* Team ends */
+
+/* Blogs start here */
+.blogs {
+  width: 65vw;
+  margin: auto;
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+}
+
+.blogs .blog-text-box h2 {
+  width: 370px;
+  font-size: 50px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.blogs .blog-text-box a {
+  font-size: 20px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.blogs .blog-text-box a:hover {
+  font-size: 20px;
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+  color: transparent;
+}
+
+.blogs .blogs-posts {
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+
+/* post 1 starts here  */
+.blogs .blogs-posts .blog-post-1 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-1.jpeg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-1::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-1 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-1:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+/* post 2 starts here  */
+.blogs .blogs-posts .blog-post-2 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-2.jpg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-2::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-2 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-2:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+/* post 3 starts here  */
+.blogs .blogs-posts .blog-post-3 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-3.jpg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-3::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-3 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-3:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+
+/* post 4 starts here  */
+.blogs .blogs-posts .blog-post-4 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-4.jpeg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-4::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-4 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-4:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+/* Blogs ends here */
+
+
+
+/* Contact section */
+.cta-section {
+  padding: 90px 30px;
+  margin: auto;
+  width: 1300px;
+  height: 400px;
+  background-color: #1d2238;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #095c53, #009589) 1;
+  border-radius: 20px;
+  /* Add border radius */
+  box-sizing: border-box;
+}
+
+.cta-section h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.cta-section h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+}
+
+/* Contact section */
+

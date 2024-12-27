@@ -1,0 +1,677 @@
+.service-section {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5vh;
+}
+.service-section .service-text h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 4.5vh;
+}
+
+.service-section .service-boxes {
+  display: grid;
+  gap: 1.5vh 0;
+  grid-template-columns: auto auto auto auto;
+}
+
+/* Service box1 */
+
+.service-section .service-boxes .service-info-box1 {
+  grid-column-start: 2;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box1 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box1::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  z-index: 1;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box1 h2 {
+  font-size: 2vh;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+  bottom: 5px;
+  left: 5px;
+  z-index: 2;
+}
+
+.service-section .service-boxes .service-info-box1:hover img {
+  box-shadow: 0 0 1vh 0.1vh #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box1:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  transform: scale(1);
+}
+
+/* Service box2 */
+
+.service-section .service-boxes .service-info-box2 {
+  grid-column-start: 4;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box2 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box2::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  z-index: 1;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box2 h2 {
+  font-size: 2vh;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+  bottom: 5px;
+  left: 5px;
+  z-index: 2;
+}
+
+.service-section .service-boxes .service-info-box2:hover img {
+  box-shadow: 0 0 1vh 0.1vh #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box2:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  transform: scale(1);
+}
+
+/* Service box3 */
+
+.service-section .service-boxes .service-info-box3 {
+  grid-column-start: 1;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box3 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box3::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  z-index: 1;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box3 h2 {
+  font-size: 2vh;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+  bottom: 5px;
+  left: 5px;
+  z-index: 2;
+}
+
+.service-section .service-boxes .service-info-box3:hover img {
+  box-shadow: 0 0 1vh 0.1vh #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box3:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  transform: scale(1);
+}
+
+/* Service box4 */
+
+.service-section .service-boxes .service-info-box4 {
+  grid-column-start: 3;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box4 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box4::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  z-index: 1;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box4 h2 {
+  font-size: 2vh;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+  bottom: 5px;
+  left: 5px;
+  z-index: 2;
+}
+
+.service-section .service-boxes .service-info-box4:hover img {
+  box-shadow: 0 0 1vh 0.1vh #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box4:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  transform: scale(1);
+}
+
+/* Service box5 */
+
+.service-section .service-boxes .service-info-box5 {
+  grid-column-start: 2;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box5 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box5::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  z-index: 1;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box5 h2 {
+  font-size: 2vh;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+  bottom: 5px;
+  left: 5px;
+  z-index: 2;
+}
+
+.service-section .service-boxes .service-info-box5:hover img {
+  box-shadow: 0 0 1vh 0.1vh #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box5:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  transform: scale(1);
+}
+
+/* Service box6 */
+
+.service-section .service-boxes .service-info-box6 {
+  grid-column-start: 4;
+  width: 25vh;
+  height: 25vh;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+.service-section .service-boxes .service-info-box6 img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box6::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000018f;
+  z-index: 1;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.service-section .service-boxes .service-info-box6 h2 {
+  font-size: 2vh;
+  position: absolute;
+  transform: scale(0);
+  transition: all 0.1s ease-in-out;
+  bottom: 5px;
+  left: 5px;
+  z-index: 2;
+}
+
+.service-section .service-boxes .service-info-box6:hover img {
+  box-shadow: 0 0 1vh 0.1vh #1d2238;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.service-section .service-boxes .service-info-box6:hover > h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  font-size: 2.5vh;
+  transform: scale(1);
+}
+
+
+/* Package section starts here */
+.package-section{
+  width: 70vw;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+}
+
+.package-section > h2{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 4.5vh;
+}
+
+.package-section .packages{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+/* package1 */
+
+.package-section .packages .package1{
+  padding: 0 5vh;
+  border-radius: 0.2vh;
+  background-color: #1d2238;
+  box-shadow: 0 0 0.5vh 0.001vh #000;
+  width: 35vh;
+  height: 25vh;
+  transition: all 0.2s ease-in-out;
+}
+
+.package-section .packages .package1 h2{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 3vh;
+  padding: 2vh 0;
+}
+
+.package-section .packages .package1 .show-on-hover
+{
+  transition: all 0.2s ease-in-out;
+  display: none;
+}
+
+.package-section .packages .package1{
+  height: 55vh;
+}
+
+.package-section .packages .package1 .show-on-hover{
+  display: block;
+}
+
+.package-section .packages .package1 .price-info {
+  padding: 0 0 2vh 0;
+  border-top: 0.1vh solid rgba(255, 255, 255, 20%);
+  border-bottom: 0.1vh solid rgba(255, 255, 255, 20%);
+}
+
+.package-section .packages .package1 .price-info .price{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 2vh 0 0 0;
+  margin: 0 0 0.5vh 0;
+}
+
+.package-section .packages .package1 .price-info .price h3{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 3.8vh;
+}
+
+.package-section .packages .package1 .price-info .price span{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5vh;
+}
+
+.package-section .packages .package1 .price-info .price-text{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5vh;
+}
+
+.package-section .packages .package1 .pricing-feature ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  font-size: 1.6vh;
+  font-weight: 600;
+  padding: 2vh 0 2vh 0;
+  border-bottom: 0.1vh solid rgba(255, 255, 255, 20%);
+}
+
+.package-section .packages .package1 .pricing-feature ul li{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.package-section .packages .package1 .pricing-feature ul li i{
+  padding: 0 1vh 0 0;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.package-section .packages .package1 .cta{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8vh;
+  font-weight: 800;
+  padding: 2vh 0;
+}
+
+
+
+/* package2 */
+
+.package-section .packages .package2{
+  padding: 0 5vh;
+  border-radius: 0.2vh;
+  background-color: #1d2238;
+  box-shadow: 0 0 0.5vh 0.001vh #000;
+  width: 35vh;
+  height: 25vh;
+  transition: all 0.2s ease-in-out;
+}
+
+.package-section .packages .package2 h2{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 3vh;
+  padding: 2vh 0;
+}
+
+.package-section .packages .package2 .show-on-hover
+{
+  transition: all 0.2s ease-in-out;
+  display: none;
+}
+
+.package-section .packages .package2{
+  height: 55vh;
+}
+
+.package-section .packages .package2 .show-on-hover{
+  display: block;
+}
+
+.package-section .packages .package2 .price-info {
+  padding: 0 0 2vh 0;
+  border-top: 0.1vh solid rgba(255, 255, 255, 20%);
+  border-bottom: 0.1vh solid rgba(255, 255, 255, 20%);
+}
+
+.package-section .packages .package2 .price-info .price{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 2vh 0 0 0;
+  margin: 0 0 0.5vh 0;
+}
+
+.package-section .packages .package2 .price-info .price h3{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 3.8vh;
+}
+
+.package-section .packages .package2 .price-info .price span{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5vh;
+}
+
+.package-section .packages .package2 .price-info .price-text{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5vh;
+}
+
+.package-section .packages .package2 .pricing-feature ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  font-size: 1.6vh;
+  font-weight: 600;
+  padding: 2vh 0 2vh 0;
+  border-bottom: 0.1vh solid rgba(255, 255, 255, 20%);
+}
+
+.package-section .packages .package2 .pricing-feature ul li{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.package-section .packages .package2 .pricing-feature ul li i{
+  padding: 0 1vh 0 0;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.package-section .packages .package2 .cta{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8vh;
+  font-weight: 800;
+  padding: 2vh 0;
+}
+
+
+
+/* package3 */
+
+.package-section .packages .package3{
+  padding: 0 5vh;
+  border-radius: 0.2vh;
+  background-color: #1d2238;
+  box-shadow: 0 0 0.5vh 0.001vh #000;
+  width: 35vh;
+  height: 25vh;
+  transition: all 0.2s ease-in-out;
+}
+
+.package-section .packages .package3 h2{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 3vh;
+  padding: 2vh 0;
+}
+
+.package-section .packages .package3 .show-on-hover
+{
+  transition: all 0.2s ease-in-out;
+  display: none;
+}
+
+.package-section .packages .package3{
+  height: 55vh;
+}
+
+.package-section .packages .package3 .show-on-hover{
+  display: block;
+}
+
+.package-section .packages .package3 .price-info {
+  padding: 0 0 2vh 0;
+  border-top: 0.1vh solid rgba(255, 255, 255, 20%);
+  border-bottom: 0.1vh solid rgba(255, 255, 255, 20%);
+}
+
+.package-section .packages .package3 .price-info .price{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 2vh 0 0 0;
+  margin: 0 0 0.5vh 0;
+}
+
+.package-section .packages .package3 .price-info .price h3{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 3.8vh;
+}
+
+.package-section .packages .package3 .price-info .price span{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5vh;
+}
+
+.package-section .packages .package3 .price-info .price-text{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.5vh;
+}
+
+.package-section .packages .package3 .pricing-feature ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+  font-size: 1.6vh;
+  font-weight: 600;
+  padding: 2vh 0 2vh 0;
+  border-bottom: 0.1vh solid rgba(255, 255, 255, 20%);
+}
+
+.package-section .packages .package3 .pricing-feature ul li{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.package-section .packages .package3 .pricing-feature ul li i{
+  padding: 0 1vh 0 0;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.package-section .packages .package3 .cta{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 1.8vh;
+  font-weight: 800;
+  padding: 2vh 0;
+}
+
+/* Package section ends here */

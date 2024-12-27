@@ -1,0 +1,693 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0px;
+  background-color: #252525;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  column-gap: 2px;
+}
+
+/* colors
+
+background color - #1d2238  rgb(29, 34, 56)
+Logo colors
+Color 1-- #009589  rgb(0, 149, 137)
+Color 2-- #095c53  rgb(9, 92, 83)
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+/* header starts here */
+header {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 16vw;
+  background-color: #1d2238;
+  padding: 40px;
+}
+
+header nav section .main_logo {
+  width: 100%;
+}
+
+header nav section .social_icons {
+  margin: 25px 0 100px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header nav section .social_icons a:hover {
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+}
+
+header nav section .social_icons a {
+  font-size: 30px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+header nav section li a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 45px;
+  display: block;
+  border-bottom: 1px solid #e8dfec;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+header nav section li {
+  list-style-type: none;
+}
+
+header nav section li a:hover {
+  padding-left: 5px;
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+}
+
+header nav section li a:active {
+  padding-left: 5px;
+}
+
+header nav section li a .fa {
+  margin-right: 5px;
+}
+
+
+.copyright h3 {
+  position: absolute;
+  bottom: 40px;
+  font-size: 16px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+/* header ends here */
+
+/* main starts here */
+
+main {
+  width: calc(100% - 16vw);
+  flex: 1;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  background-color: #1d2238;
+}
+
+
+/* header section starts here */
+.header-section {
+  height: 15vh;
+  position: relative;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #009589, #095c53) 1;
+  display: flex;
+  flex-flow: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section h1 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.header-section nav {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section nav a {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  opacity: .8;
+}
+
+/* header section ends here */
+
+/* About Us section starts */
+
+.about-us-section {
+  width: 1380px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  row-gap: 20px;
+}
+
+.about-us-section .heading-section {
+  width: 550px;
+}
+
+.about-us-section .heading-section h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.about-us-section .heading-section p {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+}
+
+.about-us-section .top-right {
+  padding: 0 12px;
+  margin-left: 234px;
+}
+
+.about-us-section .top-right img {
+  border-radius: 10px;
+}
+
+.about-us-section .bottom-left {
+  padding: 0 12px;
+}
+
+.about-us-section .bottom-left img {
+  border-radius: 10px;
+}
+
+.about-us-section .bottom-right {
+  padding: 0 12px;
+}
+
+.about-us-section .bottom-right img {
+  border-radius: 10px;
+}
+
+/* About Us section ends */
+
+/* Funfact starts here */
+.funfact {
+  max-width: 100%;
+  background-image: linear-gradient(#009589, #095c53);
+  padding: 10px 0;
+}
+
+.funfact .inner-section {
+  width: 1380px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #1d2238;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 45px 90px;
+}
+
+.funfact .inner-section .inner-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 10px 0;
+  justify-content: center;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+
+}
+
+.funfact .inner-section .inner-left h2 {
+  font-size: 50px;
+}
+
+.funfact .inner-section .inner-left p {
+  font-size: 16px;
+}
+
+.funfact .inner-section .inner-right {
+  width: 60%;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  justify-content: center;
+  display: grid;
+  grid-gap: 20px 40px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-left: 50px;
+}
+
+.funfact .inner-section .funfact-style1 {
+  display: flex;
+  align-items: center;
+}
+
+.funfact .inner-section .funfact-style1 .funfact-number {
+  font-size: 50px;
+  letter-spacing: -8px;
+  margin-right: 10px;
+}
+
+.funfact .inner-section .funfact-text span {
+  font-size: 20px;
+  font-weight: 700;
+  display: block;
+  margin-top: -4px;
+  margin-bottom: -1px;
+}
+
+/* Funfact ends here */
+
+/* Why us starts here */
+.why-us{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 1380px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us .heading h2{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.why-us .lower-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 6 columns with equal width */
+  grid-template-rows: auto; /* 2 rows with automatic height */
+  column-gap: 50px; /* Adjust the gap between columns */
+  row-gap: 50px; /* Adjust the gap between rows */
+}
+
+.why-us .lower-section .inner-section{ 
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+
+.why-us .lower-section .inner-section .circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: linear-gradient(#009589, #095c53);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.why-us .lower-section .inner-section .circle i{
+  font-size: 28px;
+  color: #1d2238;
+}
+
+.why-us .lower-section .inner-section .text-area{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 300px;
+} 
+
+.why-us .lower-section .inner-section h3{
+  font-size: 18px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+.why-us .lower-section .inner-section p{
+  font-size: 13px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+/* Why us ends here */
+
+/* about our clients starts here */
+
+.our-clients{
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-clients .heading h2{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.our-clients .map-image{
+  width: 100%;
+  height: 550px;
+}
+
+.our-clients .map-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* about our clients ends here */
+
+
+/* Team Starts */
+.team {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  width: 1380px;
+  margin: 0 auto;
+}
+
+.team .team-text-box h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.team .team-members {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .team-members .circle1 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.team .team-members .circle2 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.team .team-members .circle3 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.team .team-members .circle4 {
+  height: 350px;
+  width: 350px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+/* Team ends */
+
+
+/* Blogs start here */
+.blogs {
+  width: 100%;
+  padding: 50px 0 50px 160px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+}
+
+.blogs .blog-text-box h2 {
+  width: 370px;
+  font-size: 50px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+.blogs .blog-text-box a {
+  font-size: 20px;
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+  text-decoration: none; /* Remove the default underline */
+  color: transparent;
+  border-bottom: 0; /* Initial state of the underline (0 width) */
+  transition: border-bottom 0.5s ease-in-out; 
+  padding: 0 0 2px 0;
+}
+
+.blogs .blog-text-box a:hover {
+  animation-name: underlineAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes underlineAnimation {
+  0% {
+  width: 0%;
+  border-bottom: 0;
+  }
+  50% {
+  width: 100%;
+  border-bottom: 2px solid #009589;
+  }
+  75% {
+  width: 80%;
+  border-bottom: 2px solid #009589; 
+  }
+  100% {
+  width: 100%;
+  border-bottom: 2px solid #009589; 
+  }
+}
+
+.blogs .blogs-posts {
+  width: 1150px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+
+/* post 1 starts here  */
+.blogs .blogs-posts .blog-post-1 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-1.jpeg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-1::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-1 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-1:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+/* post 2 starts here  */
+.blogs .blogs-posts .blog-post-2 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-2.jpg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-2::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-2 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-2:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+/* post 3 starts here  */
+.blogs .blogs-posts .blog-post-3 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-3.jpg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-3::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-3 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-3:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+
+/* post 4 starts here  */
+.blogs .blogs-posts .blog-post-4 {
+  width: 220px;
+  height: 490px;
+  border-radius: 5px;
+  background: url(Index-page-images/blog-4.jpeg) no-repeat bottom/cover;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+
+.blogs .blogs-posts .blog-post-4::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #0000013d;
+  position: absolute;
+  border-radius: inherit;
+}
+
+.blogs .blogs-posts .blog-post-4 h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 5px;
+}
+
+.blogs .blogs-posts .blog-post-4:hover {
+  width: 420px;
+  height: 490px;
+  border-radius: 5px;
+}
+
+/* Blogs ends here */
+
+/* Contact section */
+.cta-section {
+  padding: 90px 30px;
+  margin: auto;
+  width: 1300px;
+  height: 400px;
+  background-color: #1d2238;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #095c53, #009589) 1;
+  border-radius: 20px;
+  /* Add border radius */
+  box-sizing: border-box;
+}
+
+.cta-section h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.cta-section h3 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+}
+
+/* Contact section */

@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0px;
+  background-color: #252525;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  column-gap: 2px;
+}
+
+/* colors
+
+background color - #1d2238  rgb(29, 34, 56)
+Logo colors
+Color 1-- #009589  rgb(0, 149, 137)
+Color 2-- #095c53  rgb(9, 92, 83)
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* header starts here */
+header {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 16vw;
+  background-color: #1d2238;
+  padding: 40px;
+}
+
+header nav section .main_logo {
+  width: 100%;
+}
+
+header nav section .social_icons {
+  margin: 25px 0 100px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+header nav section .social_icons a:hover {
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+}
+
+header nav section .social_icons a {
+  font-size: 30px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+header nav section li a {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 45px;
+  display: block;
+  border-bottom: 1px solid #e8dfec;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+header nav section li {
+  list-style-type: none;
+}
+
+header nav section li a:hover {
+  padding-left: 5px;
+  background-image: linear-gradient(#095c53, #009589);
+  background-clip: text;
+}
+
+header nav section li a:active {
+  padding-left: 5px;
+}
+
+header nav section li a .fa {
+  margin-right: 5px;
+}
+
+.copyright h3 {
+  position: absolute;
+  bottom: 40px;
+  font-size: 16px;
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+}
+
+/* header ends here */
+
+/* main starts here */
+
+main {
+  width: calc(100% - 16vw);
+  flex: 1;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+  background-color: #1d2238;
+}
+
+/* header section starts here */
+.header-section {
+  height: 15vh;
+  position: relative;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #009589, #095c53) 1;
+  display: flex;
+  flex-flow: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section h2 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.header-section nav {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section nav a {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* header section ends here */
+
+main {
+  width: calc(100% - 16vw);
+  flex: 1;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  background-color: #1d2238;
+}
+
+/* header section starts here */
+.header-section {
+  height: 15vh;
+  position: relative;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(to right, #009589, #095c53) 1;
+  display: flex;
+  flex-flow: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-section h1 {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 50px;
+}
+
+.header-section nav {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-section nav a {
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* header section ends here */
+
+/* Location 1 starts here */
+.location1 {
+  width: 1380px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin: 0 auto;
+}
+
+.location1 .header {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(#009589, #095c53);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.location1 .header .inner-section {
+    height: 100%;
+    width: 250px;
+    background-color: #1d2238;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location1 .header h2{
+    font-size: 20px;
+    background-image: linear-gradient(#009589, #095c53);
+    background-clip: text;
+    color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.location1 .location-info{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location1 .location-info .image-area{
+  background:url(Contact-page-images/Screenshot\ 2024-06-26\ 231038.png) no-repeat center/cover;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.location1 .location-info .map{
+  background:url(Contact-page-images/OFFC\ location.jpg) no-repeat center/cover;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.location1 .location-info .text-area{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Location 1 ends here */
+
+/* Location 2 starts here */
+.location2 {
+  width: 1380px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin: 0 auto;
+}
+
+.location2 .header {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(#009589, #095c53);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.location2 .header .inner-section {
+    height: 100%;
+    width: 250px;
+    background-color: #1d2238;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location2 .header h2{
+    font-size: 20px;
+    background-image: linear-gradient(#009589, #095c53);
+    background-clip: text;
+    color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.location2 .location-info{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location2 .location-info .image-area{
+    background:url(Contact-page-images/Screenshot\ 2024-06-26\ 231038.png) no-repeat center/cover;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.location2 .location-info .map{
+  background:url(Contact-page-images/OFFC\ location.jpg) no-repeat center/cover;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.location2 .location-info .text-area{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Location 2 ends here */
+
+
+/* Location 3 starts here */
+.location3 {
+  width: 1380px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin: 0 auto;
+}
+
+.location3 .header {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(#009589, #095c53);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.location3 .header .inner-section {
+    height: 100%;
+    width: 250px;
+    background-color: #1d2238;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location3 .header h2{
+    font-size: 20px;
+    background-image: linear-gradient(#009589, #095c53);
+    background-clip: text;
+    color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.location3 .location-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location3 .location-info .image-area{
+  background:url(Contact-page-images/Screenshot\ 2024-06-26\ 231038.png) no-repeat center/cover;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.location3 .location-info .map{
+  background:url(Contact-page-images/OFFC\ location.jpg) no-repeat center/cover;
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.location3 .location-info .text-area{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Location 3 ends here */
+
+/* forn Starts here */
+
+.Contact-form{
+  width: 550px;
+  height: 600px;
+  padding: 75px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+}
+
+.Contact-form form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 12px;
+}
+
+.Contact-form form .inner{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  width: 100%;
+}
+
+.Contact-form form .website{
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-form form .message{
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-form form input{
+  height: 30px;
+  padding-left: 10px;
+  background-color: rgba(228, 228, 228);
+  border: none;
+}
+
+.Contact-form form textarea{
+  height: 100px;
+  padding-left: 10px;
+  background-color: rgba(228, 228, 228);
+  border: none;
+}
+
+.submit-button{
+  text-align: center;
+}
+
+.Contact-form form input{
+  padding: 10px 15px;
+  
+}

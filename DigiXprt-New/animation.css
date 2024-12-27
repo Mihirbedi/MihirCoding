@@ -1,0 +1,765 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+/* colors
+
+background color - #1d2238  rgb(29, 34, 56)
+Logo colors
+Color 1-- #009589  rgb(0, 149, 137)
+Color 2-- #095c53  rgb(9, 92, 83)
+
+*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
+  text-decoration: none;
+}
+
+
+.animation{
+  height: 100vh;
+  width: 100%;
+  background-color: #1d2238;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000000000;
+  left: 0;
+  top: 0;
+
+  animation-name: zoom-out;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 2.5s;
+}
+
+@keyframes zoom-out {
+    0%{
+        filter: opacity(1);
+        top: 0;
+        left: 0;
+    }
+
+    50%{
+        filter: opacity(0);
+        top: 0;
+        left: 0;
+    }
+    50.0001{
+        filter: opacity(0);
+        top: -100%;
+        left: 0;
+    }
+
+    100%{
+        filter: opacity(0);
+        top: -100%;
+        left: 0;
+    }
+}
+
+.mainbox{
+  height: 100px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+  border-image: linear-gradient(#009589, #095c53) 1;
+}
+
+
+
+.mainbox .box{
+  height: 100px;
+  width: 100px;
+
+  position: absolute;
+
+  z-index: 1;
+
+  left: 100%;
+  top: 0;
+  transform: rotate(360deg);
+
+  animation-name: logo;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.mainbox .box img{
+  width: 100%;
+  height: 100%;
+}
+
+
+@keyframes logo {
+    0%{
+        left: 100%;
+        top: 0;
+        transform: rotate(360deg);
+    }
+    25%{
+        left: calc(75% - 50px);
+        top: 0;
+        transform: rotate(270deg);
+    }
+    50%{
+        left: calc(50% - 50px);
+        top: 0;
+        transform: rotate(180deg);
+    }
+    75%{
+        left: calc(25% - 50px);
+        top: 0;
+        transform: rotate(90deg);
+    }
+    100%{
+        left: 0;
+        top: 0;
+        transform: rotate(0deg);
+    }
+}
+
+
+.mainbox .box2{
+  height: 100%;
+  width: 300px;
+  position: absolute;
+  left: 100%;
+  padding: 15px 35px;
+
+  animation-name: slide;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@keyframes slide {
+
+  0%{
+    left: 100%;
+  }
+
+  100%{
+    left: 25%;
+  }
+  
+}
+
+
+.mainbox .box2 .text1::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+
+  content: "";
+  animation-name: text1;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes text1 {
+  0% {
+      content: "";
+  }
+
+  25% {
+      content: "A";
+  }
+  
+  50% {
+      content: "B";
+  }
+  
+  75% {
+      content: "C";
+  }
+  
+  100% {
+      content: "D";
+  }
+}
+
+
+.mainbox .box2 .text2::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+  content: "";
+  animation-name: text2;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: s; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes text2 {
+  0% {
+      content: "";
+  }
+
+  11.11% {
+      content: "a";
+  }
+  22.22% {
+      content: "b";
+  }
+  33.33% {
+      content: "c";
+  }
+  44.44% {
+      content: "d";
+  }
+  55.55% {
+      content: "e";
+  }
+  66.66% {
+      content: "f";
+  }
+  77.77% {
+      content: "g";
+  }
+  88.88% {
+      content: "h";
+  }
+  100% {
+      content: "i";
+  }
+}
+
+
+.mainbox .box2 .text3::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+  content: "";
+  animation-name: text3;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes text3{
+  0% {
+      content: "";
+  }
+
+  14.2857% {
+      content: "a";
+  }
+  
+  28.5714% {
+      content: "b";
+  }
+  
+  42.8571% {
+      content: "c";
+  }
+  
+  57.1428% {
+      content: "d";
+  }
+  
+  71.4285% {
+      content: "e";
+  }
+  
+  85.7142% {
+      content: "f";
+  }
+  
+  100% {
+      content: "g";
+  }
+}
+
+
+.mainbox .box2 .text4::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+  content: "";
+  animation-name: text4;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes text4 {
+  0% {
+      content: "";
+  }
+
+  11.11% {
+      content: "a";
+  }
+  22.22% {
+      content: "b";
+  }
+  33.33% {
+      content: "c";
+  }
+  44.44% {
+      content: "d";
+  }
+  55.55% {
+      content: "e";
+  }
+  66.66% {
+      content: "f";
+  }
+  77.77% {
+      content: "g";
+  }
+  88.88% {
+      content: "h";
+  }
+  100% {
+      content: "i";
+  }
+}
+
+
+.mainbox .box2 .text5::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+  content: "";
+  animation-name: text5;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes text5 {
+  0% {
+      content: "";
+  }
+  
+  4.1667% {
+      content: "A";
+  }
+  
+  8.3333% {
+      content: "B";
+  }
+  
+  12.5% {
+      content: "C";
+  }
+  
+  16.6667% {
+      content: "D";
+  }
+  
+  20.8333% {
+      content: "E";
+  }
+  
+  25% {
+      content: "F";
+  }
+  
+  29.1667% {
+      content: "G";
+  }
+  
+  33.3333% {
+      content: "H";
+  }
+  
+  37.5% {
+      content: "I";
+  }
+  
+  41.6667% {
+      content: "J";
+  }
+  
+  45.8333% {
+      content: "K";
+  }
+  
+  50% {
+      content: "L";
+  }
+  
+  54.1667% {
+      content: "M";
+  }
+  
+  58.3333% {
+      content: "N";
+  }
+  
+  62.5% {
+      content: "O";
+  }
+  
+  66.6667% {
+      content: "P";
+  }
+  
+  70.8333% {
+      content: "Q";
+  }
+  
+  75% {
+      content: "R";
+  }
+  
+  79.1667% {
+      content: "S";
+  }
+  
+  83.3333% {
+      content: "T";
+  }
+  
+  87.5% {
+      content: "U";
+  }
+  
+  91.6667% {
+      content: "V";
+  }
+  
+  95.8333% {
+      content: "W";
+  }
+  
+  100% {
+      content: "X";
+  }
+}
+
+
+.mainbox .box2 .text6::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+  content: "";
+  animation-name: text6;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes text6 {
+  0% {
+      content: "";
+  }
+  
+  6.25% {
+      content: "a";
+  }
+  
+  12.5% {
+      content: "b";
+  }
+  
+  18.75% {
+      content: "c";
+  }
+  
+  25% {
+      content: "d";
+  }
+  
+  31.25% {
+      content: "e";
+  }
+  
+  37.5% {
+      content: "f";
+  }
+  
+  43.75% {
+      content: "g";
+  }
+  
+  50% {
+      content: "h";
+  }
+  
+  56.25% {
+      content: "i";
+  }
+  
+  62.5% {
+      content: "j";
+  }
+  
+  68.75% {
+      content: "k";
+  }
+  
+  75% {
+      content: "l";
+  }
+  
+  81.25% {
+      content: "m";
+  }
+  
+  87.5% {
+      content: "n";
+  }
+  
+  93.75% {
+      content: "o";
+  }
+  
+  100% {
+      content: "p";
+  }
+}
+
+
+.mainbox .box2 .text7::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+  content: "";
+  animation-name: text7;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes text7 {
+  0% {
+      content: "";
+  }
+
+  5.5556% {
+      content: "a";
+  }
+
+  11.1111% {
+      content: "b";
+  }
+
+  16.6667% {
+      content: "c";
+  }
+
+  22.2222% {
+      content: "d";
+  }
+
+  27.7778% {
+      content: "e";
+  }
+
+  33.3333% {
+      content: "f";
+  }
+
+  38.8889% {
+      content: "g";
+  }
+
+  44.4444% {
+      content: "h";
+  }
+
+  50% {
+      content: "i";
+  }
+
+  55.5556% {
+      content: "j";
+  }
+
+  61.1111% {
+      content: "k";
+  }
+
+  66.6667% {
+      content: "l";
+  }
+
+  72.2222% {
+      content: "m";
+  }
+
+  77.7778% {
+      content: "n";
+  }
+
+  83.3333% {
+      content: "o";
+  }
+
+  88.8889% {
+      content: "p";
+  }
+
+  94.4444% {
+      content: "q";
+  }
+
+  100% {
+      content: "r";
+  }
+}
+
+
+
+.mainbox .box2 .text8::before{
+  background-image: linear-gradient(#009589, #095c53);
+  background-clip: text;
+  color: transparent;
+  font-size: 55px;
+  font-weight: 700;
+
+  content: "";
+  animation-name: text8;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  /* animation-delay: 1s; */
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes text8 {
+  0% {
+      content: "";
+  }
+
+  5% {
+      content: "a";
+  }
+
+  10% {
+      content: "b";
+  }
+
+  15% {
+      content: "c";
+  }
+
+  20% {
+      content: "d";
+  }
+
+  25% {
+      content: "e";
+  }
+
+  30% {
+      content: "f";
+  }
+
+  35% {
+      content: "g";
+  }
+
+  40% {
+      content: "h";
+  }
+
+  45% {
+      content: "i";
+  }
+
+  50% {
+      content: "j";
+  }
+
+  55% {
+      content: "k";
+  }
+
+  60% {
+      content: "l";
+  }
+
+  65% {
+      content: "m";
+  }
+
+  70% {
+      content: "n";
+  }
+
+  75% {
+      content: "o";
+  }
+
+  80% {
+      content: "p";
+  }
+
+  85% {
+      content: "q";
+  }
+
+  90% {
+      content: "r";
+  }
+
+  95% {
+      content: "s";
+  }
+
+  100% {
+      content: "t";
+  }
+}
