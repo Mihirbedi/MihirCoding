@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "personal-font";
+  src: url(Font/ByteBounce.ttf);
+}
+
+* {
+  font-family: "personal-font";
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.animation {
+  background-color: #000000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+
+  animation: anim 3s forwards;
+  animation-delay: 4s;
+
+  z-index: 999999;
+}
+
+
+@keyframes anim {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  99.99999% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+.wrapper {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 80px;
+  color: #20c20e;
+
+  animation: fadeOut 3s forwards;
+  animation-delay: 4s;
+}
+
+#Matrix {
+  position: relative;
+  z-index: 2;
+  animation: fadeOut 4s forwards;
+  animation-delay: 6s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  90% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+.typing-demo {
+  width: 335px;
+  animation: typing 2s steps(14), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 10px solid;
+  font-family: monospace;
+  font-size: 70px;
+  font-family: "personal-font";
+  color: #20c20e;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

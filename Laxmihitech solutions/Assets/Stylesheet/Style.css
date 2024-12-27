@@ -1,0 +1,370 @@
+@font-face {
+  font-family: brooklyn;
+  src: url(Fonts/brooklyn/Brooklyn-Normal.otf),
+    url(Fonts/brooklyn/Brooklyn-Bold.otf),
+    url(Fonts/brooklyn/Brooklyn-BoldItalic.otf),
+    url(Fonts/brooklyn/Brooklyn-Heavy.otf),
+    url(Fonts/brooklyn/Brooklyn-HeavyItalic.otf),
+    url(Fonts/brooklyn/Brooklyn-Italic.otf),
+    url(Fonts/brooklyn/Brooklyn-SemiBold.otf),
+    url(Fonts/brooklyn/Brooklyn-SemiBoldItalic.otf);
+}
+
+@font-face {
+  font-family: Cayano;
+  src: url(Fonts/cayano-pro/CayanoPro-Bold.otf),
+    url(Fonts/cayano-pro/CayanoPro-ExtraLight.otf),
+    url(Fonts/cayano-pro/CayanoPro-Light.otf),
+    url(Fonts/cayano-pro/CayanoPro-Medium.otf),
+    url(Fonts/cayano-pro/CayanoPro-Regular.otf),
+    url(Fonts/cayano-pro/CayanoPro-SemiBold.otf),
+    url(Fonts/cayano-pro/CayanoPro-Thin.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+h2{
+  font-size: 50px;
+  font-family: "cayano";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h4{
+  font-size: 15px;
+  font-family: "brooklyn";
+  text-transform: uppercase;
+}
+
+button{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 20px 25px;
+  font-family: "brooklyn";
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: all .3s ease;
+}
+
+nav {
+  max-width: 1920px;
+  border-top: 5px solid blue;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav section {
+  height: 80px;
+  width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav section img {
+  height: 45px;
+}
+
+nav section a {
+  border: 1px solid blue;
+  font-family: "brooklyn";
+  font-weight: lighter;
+  color: blue;
+  padding: 10px 25px;
+  border-radius: 100px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+nav section a:hover {
+  background-color: blue;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+/* header starts here */
+header {
+  max-width: 1920px;
+  height: 300px;
+  background: url(Images/bg1-home1.jpg) no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+header .text-area {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+}
+header .text-area h1 {
+  color: white;
+  font-family: "Cayano";
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+header .text-area .inner-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+header .text-area .inner-text p {
+  font-size: 20px;
+  color: white;
+  font-family: "brooklyn";
+  font-weight: lighter;
+}
+
+
+/* header ends here */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .header-images {
+    height: 694px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+main .header-images img{
+    height: 100%;
+}
+
+
+/* capabilities starts here */
+.capabilities {
+  width: 1400px;
+  /* border: 1px solid green; */
+  height: 100vh;
+  padding: 100px;
+}
+
+.capabilities .capabilities-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  padding: 100px;
+}
+
+.capabilities .image-area{
+  height: inherit;
+  display: flex;
+  column-gap: 20px;
+}
+.capabilities .image-area img{
+  height: 420px;
+  border-radius: 10px;
+}
+.capabilities .text-area
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.capabilities .text-area ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 15px;
+  font-family: "brooklyn";
+  text-transform: uppercase;
+}
+
+.capabilities .text-area ul li i{
+  background-color: blue;
+  padding: 10px 12px;
+  border-radius: 100%;
+  color: white;
+}
+
+.industries{
+  width: 100%;
+  margin: 0 auto;
+  height: 711px;
+  background: url(Images/bg1-service-e1715355306682.jpg) no-repeat center/cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 25px 15px;
+  color: white;
+  column-gap: 20px;
+}
+.industries .left-section{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+}
+
+.industries .left-section p{
+  font-family: 'brooklyn';
+  font-size: 20px;
+}
+
+
+.industries .right-section ul{
+  display: grid;
+  min-height: 0px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px 30px;
+  grid-auto-flow: row;
+  transition: all 0.3s ease;
+}
+
+.industries .right-section ul li{
+  height: 200px;
+  width: 450px;
+  text-align: left;
+  padding: 35px 40px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #FFFFFF1A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'brooklyn';
+  font-size: 25px;
+}
+.industries .right-section ul li i{
+  font-size: 28px;
+}
+
+.industries .right-section ul li:hover{
+  background:url(Images/bg2-service-hover.jpg) no-repeat right/cover;
+  color: blue;
+  transition: all 0.3s ease;
+}
+
+.clients {
+  width: 1400px;
+  height: 150px;
+  width: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients ul li{
+  height: 100px;
+  padding: 10px;
+}
+
+.clients ul li img{
+  height: 100%;
+}
+
+
+.Why-us{
+  height: 800px;
+  width: 1800px;
+  border-radius: 10px;
+  background: url(Images/bg2-why-choose-us.jpg) no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Why-us .inner-section{
+  display: flex;
+  row-gap: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+
+.Why-us .inner-section p{
+  font-size: 16px;
+  font-family: "brooklyn";
+}
+
+.Why-us .inner-section ul{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-family: 'brooklyn';
+}
+
+
+.get-in-touch{
+  background:url(Images/bg1-faq.jpg) no-repeat right/cover;
+  width: 100%;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-in-touch .inner-section{
+  width: 1600px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.get-in-touch .inner-section .left-section h3{
+  font-family: 'brooklyn';
+  font-size: 30px;
+}
+
+.get-in-touch .inner-section .left-section p{
+  font-family: 'brooklyn';
+  line-height: 60px;
+
+}
+
+
+.copyright{
+  background-color: #262f42;
+  color: #585858;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.copyright .inner-section{
+  width: 1600px;
+  font-family: 'brooklyn';
+  font-size: 20px;
+}

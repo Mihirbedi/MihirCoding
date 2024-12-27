@@ -1,0 +1,542 @@
+@font-face {
+  font-family: "personal-font";
+  src: url(Font/ByteBounce.ttf);
+}
+
+/* color: 20c20e;
+background color : #000000; */
+
+body {
+  font-family: "personal-font", sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "personal-font";
+}
+
+
+p{
+  font-size: 1.5rem;
+}
+
+/* main starts here */
+main{
+  background-color: #000000;
+  color: #20c20e;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 100px;
+}
+/* main ends here  */
+
+/* back to top button starts here */
+#back-to-top {
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  font-size: 25px;
+  z-index: 9999;
+  color: #20c20e;
+  transform: rotate(-90deg);
+  padding: 5px 10px;
+  cursor: pointer;
+}
+/* Back to top button ends here */
+
+/* .matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+} */
+
+/* header starts here */
+header {
+  background: url(Images/hacker_text_effect.png) no-repeat center/cover;
+  z-index: 99999;
+  height: 100vh;
+  width: 100%;
+  margin: auto 0;
+  color: #20c20e;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background-color: #000000;
+}
+
+header h1{
+  font-size: 5rem;
+}
+
+header p{
+  font-size: 1.5rem;
+  width: 1000px;
+}
+
+header button{
+  position: absolute;
+  bottom: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  /* border: 1px solid white; */
+  height: 50px;
+  width: 50px;
+  transition: all .1s ease;
+}
+
+header button:hover{
+  border: 1px solid #20c20e;
+  border-radius: 50%;
+}
+
+header button::after {
+  content: "\f107";  /* Unicode for the Font Awesome icon */
+  font-family: "Font Awesome 6 Free";  /* Font family for Font Awesome */
+  font-weight: 900;  /* Use this line if the icon doesn't appear correctly, as some icons are part of the 'Solid' subset */
+  font-size: 35px;
+  color: #20c20e;
+  transition: all .1s ease;
+}
+
+
+header button:hover::after {
+  content: "\f103";  /* Unicode for the Font Awesome icon */
+  font-family: "Font Awesome 6 Free";  /* Font family for Font Awesome */
+  font-weight: 900;  /* Use this line if the icon doesn't appear correctly, as some icons are part of the 'Solid' subset */
+  font-size: 35px;
+  border-radius: 50%;
+  transition: all .1s ease;
+}
+/* header ends here */
+
+
+
+/* First section starts here */
+.First-section{
+  width: 1440px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.First-section h2{
+  font-size: 100px;
+}
+
+.First-section .text-area{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.First-section .text-area h2{
+  font-size: 5rem;
+}
+
+
+.text1{
+  position: relative;
+  height: 150px;
+  width: 750px;
+  transform: rotate(-2deg);
+}
+
+.text1 h3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #20c20e;
+  font-size: 190px;
+}
+
+.text1 p{
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 550px;
+  background-color: #00000050;
+}
+
+.text2{
+  position: relative;
+  height: 150px;
+  width: 100%;
+  transform: rotate(-2deg);
+}
+
+.text2 h3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #20c20e;
+  font-size: 190px;
+}
+
+.text2 p{
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 735px;
+  background-color: #00000050;
+}
+
+.text3{
+  position: relative;
+  height: 150px;
+  width: 100%;
+  transform: rotate(-2deg);
+}
+
+.text3 h3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #20c20e;
+  font-size: 190px;
+}
+
+.text3 p{
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 735px;
+  background-color: #00000050;
+}
+
+.text4{
+  position: relative;
+  height: 150px;
+  width: 1000px;
+  transform: rotate(-2deg);
+}
+
+.text4 h3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #20c20e;
+  font-size: 190px;
+}
+
+.text4 p{
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 735px;
+  background-color: #00000050;
+}
+.text5{
+  position: relative;
+  height: 150px;
+  width: 100%;
+  transform: rotate(-2deg);
+}
+
+.text5 h3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #20c20e;
+  font-size: 190px;
+}
+
+.text5 p{
+  position: absolute;
+  z-index: 1;
+  height: 50px;
+  padding: 5px;
+  bottom: 5px;
+  right: 5px;
+  border-radius: 5px;
+  text-align: center;
+  width: 735px;
+  background-color: #00000050;
+}
+/* First section ends here */
+
+/* second section starts here */
+
+.second-section{
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.second-section h2{
+  font-size: 90px;
+}
+
+.second-section h3{
+  font-size: 50px;
+}
+
+.second-section ul li {
+  font-size: 25px;
+  padding: 10px 0;
+  list-style-type: symbols();
+}
+
+
+
+.second-section .upper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.second-section .upper .left{
+  height: 600px;
+  width: 500px;
+}
+
+.second-section .upper .left img{
+  height: 100%;
+  overflow: hidden;
+}
+
+.second-section .upper .right{
+  height: 600px;
+  width: 900px;
+}
+
+
+.second-section .bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.second-section .bottom .right{
+  height: 600px;
+  width: 500px;
+}
+
+.second-section .bottom .left{
+  height: 600px;
+  width: 900px;
+}
+
+/* Second section ends here */
+
+
+/* third section starts here */
+
+.third-section{
+  height: 560px;
+  width: 1440px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 10px;
+  margin-inline: 50px;
+}
+
+.third-section h2{
+  font-size: 50px;
+  height: 92px;
+  transform: rotate(-90deg) translate(-50%);
+}
+
+.card{
+  min-width: 70px;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.card::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000063;
+}
+
+.card:hover{
+  flex-grow: 7;
+}
+
+.card > .title{
+  margin-left: 10px;
+  translate: 0 100%;
+  opacity:0;
+  z-index: 2;
+}
+
+.card:hover .title{
+  opacity: 1;
+  translate: 0 0;
+  padding: 30px;
+  font-size: 30px;
+  transition: all 0.5s ease;
+}
+
+.card1{
+  background: url(Images/Drugs.jpg) no-repeat center/cover;
+}
+.card2{
+  background: url(Images/Weapons.jpg) no-repeat center/cover;
+}
+.card3{
+  background: url(Images/hacker.jpg) no-repeat center/cover;
+}
+.card4{
+  background: url(Images/cryptocurrency.jpg) no-repeat center/cover;
+}
+
+/* third section ends here */
+
+
+
+
+/* fourth section starts here */
+
+.fourth-section{
+  width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fourth-section .text-area h2{
+  font-size: 5rem;
+}
+
+/* fourth section ends here */
+
+/* fifth section starts here */
+
+.fifth-section{
+  width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fifth-section .text-area h2{
+  font-size: 5rem;
+}
+
+/* fifth section ends here */
+
+/* sixth section starts here */
+
+.sixth-section{
+  width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sixth-section .text-area h2{
+  font-size: 5rem;
+}
+
+/* sixth section ends here */
+
+/* Email section starts here  */
+.email-section{
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-section h2{
+  font-size: 50px;
+}
+
+
+input {
+  height: 40px;
+  width: 500px;
+  border-bottom: 1px solid #20c20e;
+  background-color: #000000;
+  padding: 0 10px;
+  font-size: 30px;
+  border: 2px solid #20c20e;
+  /* border-bottom: 1px solid #20c20e; */
+  color: #20c20e;
+}
+
+input:focus {
+  outline: none; 
+}
+
+input[type="button"] {
+  background-color: #20c20e;
+  color: #000000;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+}
+input[type="email"]::placeholder{
+  font-size: 30px;
+  color: #20c20e;
+}
+
+#aftersubmit{
+  display: none;
+  font-size: 30px;
+}
+/* email section ends here */
+
+/* Footer section starts here  */
+footer{
+  background-color: #000000;
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #20c20e;
+}
+/* Footer section ends here  */
